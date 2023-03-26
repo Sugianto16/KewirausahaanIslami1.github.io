@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+    background-image: url(image/background.jpeg);
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: aliceblue;
+}
+.hero {
+    height: 250px;
+    background-image: url(image/enterpreneur.jpg) ;
+    background-size: cover;
+    background-position-y: -90px;
+}
+.header {
+    padding: 15px;
+    background-color: saddlebrown;
+    color: lightgrey;
+}
+.header .judul {
+    font-size: 25px;
+}
+.header .nim {
+    font-size: 15px;
+    margin-top: -15px;
+}
+.content {
+    padding: 15px;
+}
+.content .penulis {
+    font-size: 12px;
+    margin-top: -15px;
+    text-indent: 0px;
+}
+.content .penulis a {
+    text-decoration: none;
+}
+.content p {
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 16px;
+    text-indent: 30px;
+}
+ol {
+    text-align: justify;
+    font-size: 16px;
+}
+.footer {
+    background-color: rgb(189, 104, 44);
+    padding: 10px;
+}
+.footer .cp {
+    color: aliceblue;
+    text-align: center;
+}
